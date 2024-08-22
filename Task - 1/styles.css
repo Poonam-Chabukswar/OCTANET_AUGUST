@@ -1,0 +1,178 @@
+/* Basic styles for the entire page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header and navigation bar styles */
+.header {
+    background-color: #2C3E50; /* Dark blue background */
+    padding: 20px 0; /* Space around the content */
+    text-align: center; /* Center the logo and menu */
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.8em;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* Intro section with background image and centered content */
+.intro {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-naekc&psig=AOvVaw20wOkBBu3oOVLuI2Q4PnA1&ust=1724052616057000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOj03s-C_ocDFQAAAAAdAAAAABAJ'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.intro-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 20px;
+    display: inline-block;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #E74C3C; /* Red button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* About section with features */
+.about,
+.services,
+.contact,
+.signup,
+.login {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature {
+    flex-basis: 30%; /* Each feature takes up 30% of the container width */
+    padding: 10px;
+    background-color: #ecf0f1; /* Light grey background */
+    border-radius: 8px;
+    margin: 10px;
+    text-align: left;
+}
+
+/* Services section with list of services */
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.service {
+    flex-basis: 45%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: left;
+}
+
+/* Signup and Login forms */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #E74C3C; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #C0392B; /* Darker red on hover */
+}
+
+/* Contact section */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
